@@ -15,18 +15,37 @@ A Colorado Board of Elections employee asked you to complete an audit of a recen
 - Software: Python 3.6.1, Visual Studio Code, 1.38.1
 
 ## Summary
-The analysis of the election show that: 
-- There were "x" votes cast in the election.
-	- Candidate 1
-	- Candidate 2
-	- Candidate 3
+
+Summary of Candidate Votes:
+- There were 369,711 votes cast in the election.
+	- Candidate 1: Charles Stockham
+	- Candidate 2: Diana DeGette
+	- Candidate 3: Raymon Anthony Doane
 - The candidate results were:
-	- Candidate 1 received "x%" of the vote and "y" number of votes.
-	- Candidate 2 received "x%" of the vote and "y" number of votes.
-	- Candidate 3 received "x%" of the vote and "y" number of votes.
+	- Charles Stockham: received 23.0% of the votes with 85,213 total votes.
+	- Diana DeGette: received 73.8% of the votes with 272,892 total votes.
+	- Raymon Anthony Doane: received 3.1% of the votes with 11,606 total votes.
 - The winner of the election was:
-	- Candidate (1, 2, or 3), who received "x%" of the vote and "y" number of votes.
+	- Diana DeGette: received 73.8% of the votes with 272,892 total votes.
 
 ## Challenge Overview
+The election comission would like to know voter turn out for each county including percentage of each county and total count along with which county had the highest turn out. 
 
 ## Challenge Summary
+
+Summary of County Votes:
+- There were 369,711 votes cast in the election.
+    - County 1: Jefferson
+    - County 2: Denver
+    - County 3: Arapahoe
+- The county results were:
+    - Jefferson: received 10.5% of the votes with 38,855 total votes.
+    - Denver: received 82.8% of the votes with 306,055 total votes.
+    - Arapahoe: received 6.7% of the votes with 24,801 total votes.
+- County with largest number of votes:
+    - Denver
+
+## Election Audit Summary
+This script can be used to analyize other elcections by replacing the .csv data file in the code with another .csv data file. This will work as long as the csv file is in the .Resources Folder:
+![election_results.png](/resources/election_results.png)
+ By including more 'for loops' we could modify the code to see each candidates ranking in each county.
