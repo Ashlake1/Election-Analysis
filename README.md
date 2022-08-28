@@ -47,5 +47,5 @@ Summary of County Votes:
 
 ## Election Audit Summary
 This script can be used to analyize other elcections by replacing the .csv data file in the code with another .csv data file. This will work as long as the csv file is in the .Resources Folder:
-![election_results.png](/resources/election_results.png)
+![election_results.png](/Resources/election_results.png)
  By including more 'for loops' we could modify the code to see each candidates ranking in each county.
